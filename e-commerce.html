@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="ecommerce.json">
+    <link rel="stylesheet" href="CSS/ecommerce.css">
+</head>
+
+<body>
+
+    <div class="pesquisa">
+        <h1> Digite seu carro desejado</h1>
+        <div id="id"></div>
+        <div id="imagem"></div>
+        <div id="marca"></div>
+        <div id="nome"> </div>
+        <div id="preco"></div>
+
+
+        <input type="text" id="valor" placeholder="Carro para busca">
+        <div id="erro"></div>
+        <button onclick="buscar()"> Buscar</button>
+    </div>
+    <hr><br>
+
+
+    <h1 class="opcoes">Opções:</h1>
+
+    <br>
+    <div class="geral">
+        <div class="carros">
+
+            <div class="ferrari">
+                <img src="IMG/ferrari.jpg" width="300px">
+                <h2>FERRARI</h2>
+                <button class="button">COMPRAR</button>
+            </div>
+
+            <br>
+            <div class="bmw">
+                <img src="IMG/BMW.jpeg" width="300px">
+                <h2>BMW</h2>
+                <button class="button">COMPRAR</button>
+            </div>
+
+            <br>
+
+            <div class="porshe">
+                <img src="IMG/PORSHE.jpeg" width="300px">
+                <h2>PORSHE</h2>
+                <button class="button">COMPRAR</button>
+            </div>
+
+            <br>
+
+        </div>
+
+        <div class="carros2">
+
+            <div class="mercedes">
+                <img src="IMG/mercedes.jpg" width="300px">
+                <h2>MERCEDES</h2>
+                <button class="button">COMPRAR</button>
+            </div>
+
+            <br>
+
+            <div class="urus">
+                <img src="IMG/urus.jpeg" width="300px">
+                <h2>LAMBORGHINI</h2>
+                <button class="button">COMPRAR</button>
+            </div>
+
+            <br>
+
+            <div class="gtr">
+                <img src="IMG/GTR.jpeg" width="300px">
+                <h2>NISSAN GTR</h2>
+                <button class="button">COMPRAR</button>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+    <script src="JS/ecommerce.js"></script>
+</body>
+
+</html>

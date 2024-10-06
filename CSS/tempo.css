@@ -1,0 +1,27 @@
+.body{
+    background-color: chocolate;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 450px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+.botao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 20px;
+}
+.input{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 200px;
+}

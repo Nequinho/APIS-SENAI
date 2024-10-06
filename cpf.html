@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-BUSCA</title>
+    <link rel="stylesheet" href="CSS/cpf.css">
+</head>
+
+<body class="body">
+    <div class="center">
+        <div class="filho">
+            <h2> Digite seu CPF </h2>
+            <h3>(De 12345678900 à 12345678911)</h3>
+            <div id="cpf"></div>
+            <div id="nome"></div>
+            <div id="sobrenome"> </div>
+            <div id="cidade"></div>
+            <div id="pais"></div>
+
+
+            <input class="input" type="number" id="valor" placeholder="Digite o seu CPF">
+            <div id="erro"></div>
+            <button class="botao" onclick="buscar()"> Buscar</button>
+        </div>
+    </div>
+    <script src="JS/cpf.js"></script>
+</body>
+
+</html>

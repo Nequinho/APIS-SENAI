@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "marca":"BMW",
+        "nome":"BMW M4 CS",
+        "preco":"R$ 1.399.950",
+        "imagem": "<img src='IMG/BMW.jpeg' width= '200px'>"
+    },
+    {
+        "id": 2,
+        "marca":"PORSHE",
+        "nome": "911 GT3 RS",
+        "preco":"R$ 1.920.000",
+        "imagem": "<img src='IMG/PORSHE.jpeg' width= '200px'>"
+    },
+    {
+        "id": 3,
+        "marca": "FERRARI",
+        "nome": "FERRARI 458",
+        "preco":"2.710.682",
+        "imagem": "<img src='IMG/ferrari.jpg' width= '200px'>"
+    },
+    {
+        "id": 4,
+        "marca":"LAMBORGHINI",
+        "nome":"Lamborghini Urus",
+        "preco":"R$3.500.000",
+        "imagem": "<img src='IMG/urus.jpeg' width= '200px'>"
+    },
+    {
+        "id": 5,
+        "marca":"MERCEDES",
+        "nome":"Mercedez GT ",
+        "preco":"R$1.800.000",
+        "imagem": "<img src='IMG/mercedes.jpg' width= '200px'>"
+    },
+    {
+        "id": 6,
+        "marca":"NISSAN",
+        "nome":"NISSAN GTR ",
+        "preco":"R$900.000",
+        "imagem": "<img src='IMG/GTR.jpeg' width= '200px'>"
+    }
+
+]

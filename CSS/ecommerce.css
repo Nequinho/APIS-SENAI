@@ -1,0 +1,27 @@
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.opcoes{
+    display: flex;
+    justify-content: center;
+}
+.geral{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.carros{
+    display: flex;
+    justify-content: space-between;
+
+}
+.carros2{
+    display: flex;
+    justify-content:space-between;
+}
+.button{
+    border-radius: 10px;
+    padding: 5px;
+}
